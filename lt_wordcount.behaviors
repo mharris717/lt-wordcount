@@ -1,0 +1,2 @@
+{:+ {:app [(:lt.objs.plugins/load-js ["wordcount_compiled.js"])]
+     :lt-wordcount.hello [:lt.plugins.lt-wordcount/on-close-destroy]}}
