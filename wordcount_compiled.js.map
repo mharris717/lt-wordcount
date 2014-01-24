@@ -1,0 +1,27 @@
+{"version":3,
+ "file":
+ "/Users/mharris717/Library/Application Support/LightTable/plugins/lt-wordcountcompiled.map",
+ "sources":
+ ["src/lt/plugins/lt_wordcount.cljs"],
+ "lineCount":90,
+ "mappings":
+ ";AAAA;;;;;;;;;;;;;;;;AAWA,iDAAA,yCAAA,1FAAMA,kFAAmBC,GAAGC,KAC1B,OAAM,AAAa,AAACC,iCAAiBD,iBAChC,eAAA,AAAI,AAAW,AAACE,oCAAeH;;AAEtC,6CAAA,oCAAA,AAAA,IAAAI,kBAAA,AAAAC,0BAAA,mFAAA,mDAAA,2CAAA,uDAAA,uBAAA,mFAAA,iDAAA,yEAAA,AAAA,IAAAC,iBAAA,AAAAC,wBAAA,AAAAC,8BAAA,EAAA,uCAAAC,mBAAA,SAAAC,mBAAA,MAAAC,eAAA,rwBAAOgB,0EAAoBC;AAA3B,AAAA,GAAA,AAAA,CAAAjB,eAAAD;CAAA,IAAAE,iBAAA,AAAAC,yBAAAJ,iBAAAE,kBAAAG,wBAAA,AAAAC,wBAAAH,eAAA,EAAA,UAAAI,0BAAA,AAAAD,wBAAAH,eAAA,EAAA,MAAA,AAAA,AAAA,AAAAK,yBAAAb,gBAAAU,sBAAAE;AAAA;cAAAV;cAAAG;cAAAC;cAAA,CAAAC,eAAA;;;;;;;;CAAA,IAAAO,0BAAA,AAAAX,wBAAAD,gBAAA,AAAA,GAAAY;CAAA,AAAA,IAAAZ,qBAAAY,wBAAA,AAAA,GAAA,AAAAC,uCAAAb;CAAA,IAAAc,uBAAA,AAAAC,gCAAAf,oBAAA,AAAA;cAAA,AAAAgB,+BAAAhB;cAAAc;cAAA,AAAAG,0BAAAH;cAAA;;;;;;;;CAAA,IAAAI,iBAAA,AAAAC,0BAAAnB,wBAAAQ,wBAAA,AAAAC,wBAAAS,eAAA,EAAA,UAAAR,0BAAA,AAAAD,wBAAAS,eAAA,EAAA,MAAA,AAAA,AAAA,AAAAP,yBAAAb,gBAAAU,sBAAAE;AAAA;cAAA,AAAAU,yBAAApB;cAAA;cAAA;cAAA;;;;;;;;;CAAA;;;;AAAAF;;AAIA,iCAAA,sIAAA,qDAAA,mFAAA,iGAAA,qDAAA,YAAA,8DAAA,mFAAA,kIAAA,puBAACyB,yxBAIqB,kBAAA,PAAKD,OACH,OAACD,qDAAmBC;;AAG5C,AAAA,AAAAE,kDAAA,yCAAA,PAEyBF,OACH,IAAAV,0KAAA,AAAA,oBAAAA,pKAAc,AAAA,8GAAsB,AAAAe,0BAACL;CAArC,AAAA,cAAAV,wBAAA,lCAAWc,kCACT,GAAM,2KAAA,3KAACE,yBAAE,AAACX,0BAAM,AAAA,mFAAO,AAAAU,0BAACD;CAAxB,AACE,AAACG,kCAAgBH;;CADnB;;CADF;AAGA,uCAAA,hCAACI,0BAAaR;;AANpC,AAAAG,mCAAA,0HAAA,6DAAAD,gDAAA,6DAAA,iFAAA;AASA,AAAA,AAAAO,6CAAA,oCAAA,PAGyBT,OACH,mJAAA,/IAAMU,gBAAc,AAAA,6FAAY,AAAAL,0BAACL,QAC/B,OAAC7B,yDAAkB6B,MAAKU;;AALhD,AAAAP,mCAAA,gHAAA,6DAAAM,2CAAA,qDAAA,+CAAA,6DAAA,mFAAA,yDAAA;AAQA,kCAAA,2CAAA,2DAAA,kHAAA,qDAAA,2CAAA,1VAACE,+YAEmB,aAAA,AACE,0OAAA,tOAAMD,gBAAc,2BAAA,3BAACE,sKACfxC,KAAG,AAACyC,2CACR,AAACC,0CAAmBJ;AACpB,oCAAA,mFAAA,vHAACK,iCAAe3C,6JAAgB,aAAA,AAAOsC;;AACvC,0CAAA,1CAACM,uCAAqB5C;AAEtB,oCAAA,7BAACoC,0BAAapC",
+ "names":
+ ["lt.plugins.lt-wordcount/setWordCountHTML!", "ed", "obj",
+  "lt.object/->content", "lt.objs.editor/->cm-ed", "e__8100__auto__",
+  "crate.core/html", "seq__8190", "cljs.core/seq",
+  "cljs.core/partition", "chunk__8191", "count__8192", "i__8193",
+  "vec__8194", "cljs.core/-nth", "ev__8101__auto__", "cljs.core/nth",
+  "func__8102__auto__", "lt.util.dom/on", "temp__4092__auto__",
+  "cljs.core/chunked-seq?", "c__7486__auto__", "cljs.core/chunk-first",
+  "cljs.core/chunk-rest", "cljs.core/count", "vec__8195",
+  "cljs.core/first", "cljs.core/next",
+  "lt.plugins.lt-wordcount/wordcount-skeleton", "this",
+  "lt.object/object*",
+  "lt.plugins.lt-wordcount/__BEH__on-close-destroy",
+  "lt.object/behavior*", "ts", "cljs.core/deref", "cljs.core/=",
+  "lt.objs.tabs/rem-tabset", "lt.object/raise",
+  "lt.plugins.lt-wordcount/__BEH__read-editor", "wordcount-obj",
+  "lt.objs.command/command", "lt.object/create",
+  "lt.objs.editor.pool/last-active", "lt.objs.tabs/add-or-focus!",
+  "lt.object/update!", "lt.object/add-behavior!"]}
