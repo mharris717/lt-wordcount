@@ -8,10 +8,12 @@
             [lt.objs.command :as cmd])
   (:require-macros [lt.macros :refer [defui behavior]]))
 
-
 (defn setWordCountHTML! [ed obj]
-  (set! (.-innerHTML (object/->content obj))
-       (-> (.getValue (editor/->cm-ed ed)) .-length str)))
+  (let [target-container (object/->content obj)
+        source-text (.getValue (editor/->cm-ed ed))]
+    (set!
+       (.-innerHTML target-container)
+       (str "Characters: " (.-length source-text)))))
 
 (defui wordcount-skeleton [this]
   [:div {:class "lt-wordcount"}
@@ -43,7 +45,7 @@
 
 ;; object/update! takes object, array of props, function that's evaled to make value
 (cmd/command {:command ::watch-editor
-              :desc "Wordcount: Watch this editor for changes"
+              :desc "Wordcount: Open word count tab and watch this editor for changes"
               :exec (fn []
                       (let [wordcount-obj (object/create ::lt-wordcount.wordcount)
                             ed (pool/last-active)]
